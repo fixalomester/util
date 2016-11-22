@@ -61,4 +61,10 @@
     }];
 }
 
+- (NSUInteger)numberOfNotificationBlocksWithKey:(id <NSCopying>)key {
+    OKOMutableWeakArray *notificators = [_taggedNotificatorsDict objectForKey:key];
+    [notificators compact];
+    return notificators.count;
+}
+
 @end

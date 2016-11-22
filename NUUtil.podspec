@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NUUtil"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "Objective-C various utils for dummies."
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "Objective-C various utils for dummies."
 
-  s.homepage     = "https://github.com/mrnuku/util"
+  s.homepage     = "https://github.com/SciApps/util"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/mrnuku/util.git", :tag => "0.0.7" }
+  s.source       = { :git => "https://github.com/SciApps/util.git", :tag => "0.0.8" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

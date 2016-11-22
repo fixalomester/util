@@ -37,4 +37,10 @@
  */
 - (void)removeWeakNotificationBlock:(id)notificationBlock;
 
+/**
+ This method will releaase any unused notification blocks with the give key and gets the effective count of them
+ @param key The trigger key
+ */
+- (NSUInteger)numberOfNotificationBlocksWithKey:(KeyType <NSCopying>)key;
+
 @end
