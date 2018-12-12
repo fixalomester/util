@@ -22,7 +22,7 @@ typedef id (^WeakReferenceInABlock)(void);
 
 WeakReferenceInABlock wrapObjectInBlockAsWeak (id object) {
     //__weak id weakref = object;
-    return ^{ return weakref; };
+    return ^{ return object; };
 }
 
 id unwrapBlock (WeakReferenceInABlock block) {
