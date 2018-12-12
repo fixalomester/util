@@ -21,7 +21,7 @@
 typedef id (^WeakReferenceInABlock)(void);
 
 WeakReferenceInABlock wrapObjectInBlockAsWeak (id object) {
-    __weak id weakref = object;
+    //__weak id weakref = object;
     return ^{ return weakref; };
 }
 
